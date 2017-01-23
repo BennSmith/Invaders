@@ -1,0 +1,209 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+body {
+    background-color: #E0E0E0;
+    margin: 0px;
+}
+
+b {
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    align-content: flex-start;
+    padding: 2px 32px;
+    background-color: #fafafa;
+    align-content: center;
+    margin: 0;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+    font-family: 'Iceland', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+.game {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    background-image: url("../img/game.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.game button {
+    padding: 32px 0px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    opacity: .6;
+    color: #000000;
+}
+
+.game button:hover {
+    background-color: #000000;
+    opacity: .6;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+}
+
+.game button a {
+    padding: 48px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.game button a:hover {
+    color: #fafafa;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 4px 32px;
+    background-color: #fafafa;
+    align-content: center;
+    margin: 0;
+}
+
+.card h2 {
+    display: inline-block;
+    color: #000000;
+    opacity: .7;
+    font-family: 'Iceland', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.card p {
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+    opacity: .5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 350;
+    letter-spacing: .6px;
+    line-height: 1.4;
+    margin-top: 0px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.card h3 {
+    display: inline-block;
+    color: #000000;
+    opacity: .7;
+    font-family: 'Iceland', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.controls {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-left: 32px;
+}
+
+.card div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    opacity: .9;
+    border: none;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.card div button#long {
+    width: 80px;
+}
+
+.card div button#xlong {
+    width: 160px;
+}
+
+.card div button i {
+    font-size: 36px;
+    color: #fafafa;
+}
+
+.card div h4 {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Iceland', sans-serif;
+    font-size: 20px;
+    opacity: .5;
+}
+
+.card a {
+    color: #01579B;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #1A237E;
+}
+
+footer {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 32px;
+    background-color: #212121;
+    align-content: center;
+    margin: 0;
+}
+
+footer h6 {
+    display: inline-block;
+    vertical-align: top;
+    color: #fafafa;
+    font-family: 'Iceland', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer .logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 0;
+    margin-left: 8px;
+}
